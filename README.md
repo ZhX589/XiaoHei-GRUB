@@ -43,7 +43,7 @@ XiaoHei-GRUB/
 1. 克隆或下载本仓库：
 
    ```bash
-   git clone https://github.com/你的用户名/XiaoHei-GRUB.git
+   git clone https://github.com/ZhX589/XiaoHei-GRUB.git
    ```
 
 2. 将主题复制到 GRUB 主题目录：
