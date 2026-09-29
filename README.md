@@ -49,7 +49,7 @@ XiaoHei-GRUB/
 2. 将主题复制到 GRUB 主题目录：
 
    ```bash
-   sudo cp -r XiaoHei-GRUB /boot/grub/themes/
+   cd Xiaohei-GRUB && sudo cp -r XiaoHei-GRUB /boot/grub/themes/
    ```
 
 3. 编辑 `/etc/default/grub`，添加或修改：
