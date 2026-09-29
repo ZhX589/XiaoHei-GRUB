@@ -49,13 +49,13 @@ XiaoHei/
 2. 将主题复制到 GRUB 主题目录：
 
    ```bash
-   cd Xiaohei-GRUB && sudo cp -r XiaoHei /boot/grub/themes/
+   sudo cp -r XiaoHei-GRUB /boot/grub/themes/
    ```
 
 3. 编辑 `/etc/default/grub`，添加或修改：
 
    ```ini
-   GRUB_THEME="/boot/grub/themes/XiaoHei/theme.txt"
+   GRUB_THEME="/boot/grub/themes/XiaoHei-GRUB/theme.txt"
    ```
 
 4. 重新生成 GRUB 配置：
