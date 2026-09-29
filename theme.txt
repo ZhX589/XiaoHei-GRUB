@@ -1,0 +1,52 @@
+# GRUB2 gfxmenu Linux theme
+# Designed for any resolution
+
+# Global Property
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#242424"
+terminal-font: "Cascadia Code Regular 18"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
+# Info Message
++ image {
+ top = 0%
+ left = 0%
+ file = "info.png"
+}
+
+# Show the boot menu
++ boot_menu {
+  left = 15%
+  top = 15%
+  width = 36%
+  height = 70%
+  item_font = "Comic Sans MS Regular 26"
+  item_color = "#efefef"
+  selected_item_color = "#ffffff"
+  icon_width = 32
+  icon_height = 32
+  item_icon_space = 8
+  item_height = 48
+  item_padding = 3
+  item_spacing = 12
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 83%
+  left = 12%
+  width = 34%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#ffffff"
+  font = "Comic Sans MS Regular 16"
+}
